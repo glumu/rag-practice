@@ -1,0 +1,21 @@
+# Azure OpenAI 环境变量配置示例
+# 
+# 请将以下环境变量添加到您的系统中，或创建.env文件
+# 
+# Windows PowerShell:
+# $env:OPENAI_API_KEY="your-azure-openai-api-key-here"
+# $env:AZURE_OPENAI_ENDPOINT="https://your-resource-name.cognitiveservices.azure.com"
+# $env:AZURE_OPENAI_API_VERSION="2024-02-15-preview"
+# $env:AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o"
+#
+# Linux/Mac:
+# export OPENAI_API_KEY="your-azure-openai-api-key-here"
+# export AZURE_OPENAI_ENDPOINT="https://your-resource-name.cognitiveservices.azure.com"
+# export AZURE_OPENAI_API_VERSION="2024-02-15-preview"
+# export AZURE_OPENAI_DEPLOYMENT_NAME="gpt-4o"
+#
+# .env 文件格式:
+OPENAI_API_KEY=your-azure-openai-api-key-here
+AZURE_OPENAI_ENDPOINT=https://your-resource-name.cognitiveservices.azure.com
+AZURE_OPENAI_API_VERSION=2024-02-15-preview
+AZURE_OPENAI_DEPLOYMENT_NAME=gpt-4o 
